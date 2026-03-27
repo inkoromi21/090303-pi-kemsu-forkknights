@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Group3\nikitin.cs" />
     <Compile Include="GroupExample\Burmin.cs" />
     <Compile Include="IKnight.cs" />
     <Compile Include="Program.cs" />
@@ -55,7 +56,6 @@
   <ItemGroup>
     <Folder Include="Group1\" />
     <Folder Include="Group2\" />
-    <Folder Include="Group3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
