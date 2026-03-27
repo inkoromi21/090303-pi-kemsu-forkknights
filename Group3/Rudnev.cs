@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace ForkKnights.Group3 {
   internal class Rudnev : IKnight{
-    
-    string Name;
 
+    string name;
+    string specialization;
+    int amountOfMana;
+    int Damage;
+    int age;
+
+    public Rudnev() {
+      name = "Кллиан - древнее зло";
+      specialization = "Архимаг - ";
+    }
 
     public string GetJobApplication() {
 
