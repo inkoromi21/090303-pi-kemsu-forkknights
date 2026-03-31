@@ -41,7 +41,7 @@ namespace ForkKnights {
       if (!KnightList.Any()) {
         Console.WriteLine("⚠️ Выдано ноль лицензий ... Ожидается Pull Request!");
         Console.ReadKey();
-        return; //!NB - зачем тут пустой return? Попробуйте изменит код так, чтобый дойти сюда.
+        return; //!NB - зачем тут пустой return? Попробуйте изменить код так, чтобы дойти сюда.
       }
 
       Console.WriteLine($" ⚔  В мультивселенной лицензировано ратных витязей: {KnightList.Count} ⚔ ");
