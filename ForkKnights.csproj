@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Group1\Doroshkevich.cs" />
     <Compile Include="Group3\nikitin.cs" />
     <Compile Include="Group3\Konovalov.cs" />
     <Compile Include="Group3\Soldatov.cs" />
     <Compile Include="Group3\Nekrasov.cs" />
     <Compile Include="Group3\Rudnev.cs" />
+
     <Compile Include="GroupExample\Burmin.cs" />
     <Compile Include="IKnight.cs" />
     <Compile Include="Program.cs" />
